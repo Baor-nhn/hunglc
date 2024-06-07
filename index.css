@@ -1,0 +1,102 @@
+body{
+    padding: 0px;
+    margin: 0px; 
+    background-color: #EFF7FC ; 
+}
+section{
+    text-decoration: underline;
+    color: blue;
+}
+header{
+    height: 200px;
+    background-color: #424C8B;
+    width: 100%;
+    color: white;
+}
+article{
+    text-align: center;
+    margin-top: 20px;
+}
+article img {
+    max-width: 100%;
+    height: auto;
+}
+footer{
+    height: 300px;
+    background-color: #1F2B7B;
+    clear: both;
+    color: white;
+}
+.contact1 p{
+    margin-left: 100px;
+    margin-top: -15px;
+}
+.contact1 i{
+    margin-left: 70px;
+}
+.contact2 p{
+    margin-left: 100px;
+    margin-top: -15px;
+}
+.contact2 i{
+    margin-left: 70px;
+}
+.contact3 p{
+    margin-left: 100px;
+    margin-top: -20px;
+}
+.contact3 i{
+    margin-left: 70px;
+}
+
+.logo{
+  margin-left: 400px;     
+}
+.logo2{
+  margin-left: 700px;
+  margin-top: -60px;
+}
+.logo3{
+   margin-left: 1000px;
+   margin-top: -70px;
+}
+.contact{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+.tin {
+    overflow: auto;
+    margin-bottom: 20px;
+}
+ 
+.tin img{
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+ 
+}
+.tin a{
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.tin p{
+    font-size: 20px;
+}
+.color-bar{
+    display: flex;
+    height: 10px;
+    padding-top: 60px;
+}
+.color-strip{
+    flex-grow: 1;
+    height: 100%;
+}
+
+
+
+
+

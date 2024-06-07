@@ -1,0 +1,86 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+.container>nav{
+    line-height: 40px;
+    background-color: #424C8B;
+    color:white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container>footer{
+    border-top: 5px double #424C8B;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align:center;
+    font-variant: small-caps;
+    clear: both;
+}
+.container>nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container>nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.menu>ul>li{
+    display: inline-block;
+}
+.menu>ul>li>a{
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border-radius: 3px;
+    background-color: #424C8B;
+    text-align: center;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu>ul>li{
+    position: relative;
+}
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    box-shadow: 0 0 1px black;
+}
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: blue;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: #424C8B;
+    color: white;
+}
+.menu i{
+    margin-right: 5px;
+    color: white;
+}
+
+
